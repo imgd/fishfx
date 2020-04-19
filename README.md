@@ -1,4 +1,4 @@
-# Fish Framework（FishFX）
+# Fish Framework（简称：FishFX，中文名：鱼摆摆）
  * 该项目是 `FishFX` 系列的聚合仓库，不包含任何代码。
 
 `FishFX` 框架是采用 `TypeScript`（version：3.8.3）现有体系标准，对平时编码时的一些常用功能进行封装。
