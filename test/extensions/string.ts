@@ -1,8 +1,8 @@
-import '../../src';
+import '../../src/fishfx.system';
 
 console.log("f_toLower", "CN.Troy&鱼摆摆".f_toLower() === "cn.troy&鱼摆摆");
 
-console.log("f_toUpper", "cn.troy".f_toUpper() === "CN.TROY&鱼摆摆");
+console.log("f_toUpper", "cn.troy&鱼摆摆".f_toUpper() === "CN.TROY&鱼摆摆");
 
 console.log("f_isEmpty", !"鱼摆摆".f_isEmpty());
 

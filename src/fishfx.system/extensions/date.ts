@@ -22,7 +22,7 @@ Date.prototype.f_toString = function (format?: string): string {
     "H+": this.getHours(),
     "m+": this.getMinutes(),
     "s+": this.getSeconds(),
-    "q+": Math.floor((this.getMonth() + 3) / 3)
+    "f+": this.getMilliseconds()
   };
 
   if (/(y+)/.test(result)) {
@@ -34,7 +34,7 @@ Date.prototype.f_toString = function (format?: string): string {
       if (RegExp.$1.length === 1) {
         replaceStr = timeReplaceKey[k];
       } else {
-        replaceStr = `00${timeReplaceKey[k]}`.substr(timeReplaceKey[k].toString().length);
+        replaceStr = `00${timeReplaceKey[k]}`.substring(timeReplaceKey[k].toString().length);
       }
       result = result.replace(RegExp.$1, replaceStr);
     }
