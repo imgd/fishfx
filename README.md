@@ -9,10 +9,3 @@
 * fishfx.collections：`包含可使用的集合类和相关的接口，提供了集合的基本功能。`
 * fishfx.linq：`包含支持使用语言集成查询进行查询的类和接口。`
 * 后续持续更新
-
-## 其他仓库
-* [fishfx.docs](https://github.com/cn-troy/fishfx.docs)
-* [fishfx.system](https://github.com/cn-troy/fishfx.system)
-* [fishfx.collections](https://github.com/cn-troy/fishfx.collections)
-* [fishfx.linq](https://github.com/cn-troy/fishfx.linq)
-* 后续持续更新
