@@ -1,4 +1,4 @@
-import { dateTime } from '..';
+import { dateTime } from '.';
 
 /**
  * timeSpan表示持续时间。

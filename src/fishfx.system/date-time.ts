@@ -1,5 +1,4 @@
-import timeSpan from '../time-span';
-import { exception } from '..';
+import { exception } from '.';
 export default class dateTime {
   private _tickes: number = 0;
   private _date: Date;

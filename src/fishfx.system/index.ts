@@ -1,13 +1,15 @@
 import "./extensions";
 
-import { exception } from './exception';
+import * as exception from './exception';
 import convert from './convert';
 import dateTime from './date-time';
 import timeSpan from './time-span';
+import * as collections from './collections';
 
 export {
-  exception,
   convert,
   dateTime,
-  timeSpan
+  timeSpan,
+  exception,
+  collections
 }
