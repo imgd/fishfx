@@ -1,6 +1,4 @@
 # Fish Framework（简称：FishFX，中文名：鱼摆摆）
- * 该项目是 `FishFX` 系列的聚合仓库，不包含任何代码。
-
 `FishFX` 框架是采用 `TypeScript`（version：3.8.3）现有体系标准，对平时编码时的一些常用功能进行封装。
 
 主要思想参考 `CoreFX` 进行构建，致力于让 `TypeScript` 拥有如同编写 `.Net Core` 应用般的丝滑。
@@ -18,7 +16,3 @@
 * [fishfx.collections](https://github.com/cn-troy/fishfx.collections)
 * [fishfx.linq](https://github.com/cn-troy/fishfx.linq)
 * 后续持续更新
-
-### PS
-1. `npm` 已经创建，但还未实现 `v1.0` 版本。暂无法直接从 `npm` 中直接使用。
-2. 进行二次开发时，请首先在 `fishfx.xxxx` 目录使用 `npm link` 添加 `fishfx` 本地连接。之后到需要引用的项目目录中使用 `npm link fishfx.xxxx` 进行挂载。即可使用本地依赖包进行测试开发。
