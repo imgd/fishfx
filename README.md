@@ -3,6 +3,8 @@
 
 主要思想参考 `CoreFX` 进行构建，致力于让 `TypeScript` 拥有如同编写 `.Net Core` 应用般的丝滑。 
 
+* 该分支仅用于说明使用。如需查找源码，请浏览分支或标签。
+
 ## FishFX 系列
 * fishfx.docs：`文档库，采用VuePress进行构建。`
 * fishfx.system：`核心模块，主要包含：基础类型扩展、异常、通用工具等。`
