@@ -1,0 +1,24 @@
+{
+  "name": "fishfx",
+  "version": "1.0.0",
+  "description": "在TypeScript语言标准下，尽可能实现corefx的功能。",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cn-troy/fishfx.system.git"
+  },
+  "keywords": [
+    "typescript",
+    "fishfx",
+    "corefx"
+  ],
+  "author": "Troy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cn-troy/fishfx.system/issues"
+  },
+  "homepage": "https://github.com/cn-troy/fishfx.system#readme",
+  "devDependencies": {
+    "ts-node": "8.8.2",
+    "typescript": "3.8.3"
+  }
+}

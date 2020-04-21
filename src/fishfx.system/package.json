@@ -1,0 +1,24 @@
+{
+  "name": "fishfx.system",
+  "version": "1.0.0",
+  "description": "fishfx中system实现",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cn-troy/fishfx.git"
+  },
+  "keywords": [
+    "typescript",
+    "corefx",
+    "fishfx"
+  ],
+  "author": "Troy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cn-troy/fishfx/issues"
+  },
+  "homepage": "https://github.com/cn-troy/fishfx#readme"
+}
